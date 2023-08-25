@@ -1,79 +1,87 @@
+/**
+ * @author Lily Ellison - lbellison
+ * CIS175 - Fall 2023
+ * Aug 24, 2023
+ */
+
+
 package model;
 
 public class Lion {
     
+	private String lifeStage; //adult, adolescent, cub
+	private String gender; //male, female, intersex
+	private int weight; //in kilograms
 
-	private String habitat;
-	private String name;
-	private int length;
-
-	public Example() {
+    //Default constructor:
+	public Lion() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	/**
-	 * @param habitat
-	 * @param name
-	 * @param length
+	 * @param lifeStage
+	 * @param gender
+	 * @param weight
 	 */
-	public Example(String habitat, String name, int length) {
+	public Lion(String lifeStage, String gender, int weight) {
 		super();
-		this.habitat = habitat;
-		this.name = name;
-		this.length = length;
+		this.lifeStage = lifeStage;
+		this.gender = gender;
+		this.weight = weight;
 	}
 
 	/**
-	 * @return the habitat
+	 * @return the lifeStage
 	 */
-	public String getHabitat() {
-		return habitat;
+	public String getLifeStage() {
+		return lifeStage;
 	}
 
 	/**
-	 * @param habitat the habitat to set
+	 * @param lifeStage the lifeStage to set
 	 */
-	public void setHabitat(String habitat) {
-		this.habitat = habitat;
+	public void setLifeStage(String lifeStage) {
+		this.lifeStage = lifeStage;
 	}
 
 	/**
-	 * @return the name
+	 * @return the gender
 	 */
-	public String getName() {
-		return name;
+	public String getGender() {
+		return gender;
 	}
 
 	/**
-	 * @param name the name to set
+	 * @param gender the gender to set
 	 */
-	public void setName(String name) {
-		this.name = name;
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
 
 	/**
-	 * @return the length
+	 * @return the weight
 	 */
-	public int getLength() {
-		return length;
+	public int getWeight() {
+		return weight;
 	}
 
 	/**
-	 * @param length the length to set
+	 * @param weight the weight to set
 	 */
-	public void setLength(int length) {
-		this.length = length;
+	public void setWeight(int weight) {
+		this.weight = weight;
 	}
 
+	// Overrides toString method to return a string representation of the Lion object
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return "Example [name=" + name + ", length=" + length + "inches, habitat=" + habitat + "]";
+		
+		return "Lion [gender= " + gender + ", life stage = " + lifeStage + ", weight=" + weight + "kilograms. ]";
 	}
 
+    // Method to return the noise made by the Lion
 	public String makeNoise() {
-		return "Example!";
+		return "ROAR!";
 	}
 }
 

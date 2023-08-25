@@ -1,5 +1,6 @@
 
 import model.Example;
+import model.Lion;
 import model.Parrot;
 
 public class AnimalNoise {
@@ -18,6 +19,12 @@ public class AnimalNoise {
 		
 		// Printing the result of the makeNoise method from the Parrot class
 		System.out.println(parrot.makeNoise());
+
+		//New instance of Lion class
+		Lion myLion = new Lion("Adult", "Male", 200);
+
+		//Making noise:
+		System.out.println(myLion.makeNoise());
 	}
 
 }
