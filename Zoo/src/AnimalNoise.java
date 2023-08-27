@@ -24,7 +24,7 @@ public class AnimalNoise {
 		System.out.println(parrot.makeNoise());
 
 		//binturong go moo 
-		System.out.println(Binturong.speak());
+		System.out.println(binturong.speak());
 	}
 
 }

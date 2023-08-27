@@ -4,6 +4,7 @@
  * Aug 27, 2023
  */
 
+package model;
 
 public class Binturong {
     private String sex;
@@ -40,7 +41,7 @@ public class Binturong {
         this.furColor = furColor;
     }
 
-    public void speak() {
-        System.out.println("Salutations, I'm an arboreal herbivore from southeast Asia, and I smell like popcorn. SCREOW!");
+    public String speak() {
+        return "Salutations, I'm an arboreal herbivore from southeast Asia, and I smell like popcorn. SCREOW!";
     }
 }
