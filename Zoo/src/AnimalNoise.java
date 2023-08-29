@@ -16,7 +16,7 @@ public class AnimalNoise {
 		 * Add a call to your animal below this comment.
 		 */
 
-		// Creating an instance of the Parrot class
+		// Creating an instance of the Parrot class 
 		Parrot parrot = new Parrot("Green", "Amazon Parrot", 12);
 
 		//instantiating the binturong
