@@ -1,5 +1,6 @@
 
 import model.Example;
+import model.GrizzlyBear;
 import model.Lion;
 import model.Parrot;
 import model.Binturong;
@@ -33,6 +34,12 @@ public class AnimalNoise {
 
 		//Making noise:
 		System.out.println(myLion.makeNoise());
+		
+		//Creating new instance of GrizzlyBear class
+		GrizzlyBear myBear = new GrizzlyBear("Male", 410, "Omnivorous");
+		
+		//GrizzlyBear making noise
+		System.out.println(myBear.makeNoise());
 
 	}
 
