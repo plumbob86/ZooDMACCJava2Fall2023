@@ -13,7 +13,7 @@ public class Cow
     private String name;
     private int weight;
 
-    public Cow() 
+    public Cow()  
     {
     }
 
