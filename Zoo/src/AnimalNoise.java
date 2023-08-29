@@ -1,5 +1,6 @@
 
 import model.Example;
+import model.Lion;
 import model.Parrot;
 import model.Binturong;
 
@@ -23,8 +24,16 @@ public class AnimalNoise {
 		// Printing the result of the makeNoise method from the Parrot class
 		System.out.println(parrot.makeNoise());
 
+
 		//binturong go moo 
 		System.out.println(binturong.speak());
+
+		//New instance of Lion class
+		Lion myLion = new Lion("Adult", "Male", 200);
+
+		//Making noise:
+		System.out.println(myLion.makeNoise());
+
 	}
 
 }
