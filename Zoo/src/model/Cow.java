@@ -13,7 +13,7 @@ public class Cow
     private String name;
     private int weight;
 
-    public Cow()
+    public Cow() 
     {
     }
 
@@ -21,7 +21,7 @@ public class Cow
     {
         this.habitat = habitat;
         this.name = name;
-        this.weight = weight;
+        this.weight = weight; 
     }
 
     // Getters and Setters for habitat, name, and weight
