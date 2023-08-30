@@ -34,6 +34,11 @@ public class AnimalNoise {
 		//Making noise:
 		System.out.println(myLion.makeNoise());
 
+		//Creating Bison class Instance
+		Bison myBison = new Bison("American Bison", 2000, 23)
+
+		//Bisons bellow
+		System.out.println(myBison.makeNoise();
 	}
 
 }
