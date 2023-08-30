@@ -3,6 +3,7 @@ import model.Example;
 import model.Lion;
 import model.Parrot;
 import model.Binturong;
+import model.Aardvark;
 
 public class AnimalNoise {
 
@@ -33,6 +34,10 @@ public class AnimalNoise {
 
 		//Making noise:
 		System.out.println(myLion.makeNoise());
+		
+		// Evan Bunnell - Aardvark
+		Aardvark aardvark = new Aardvark(169, 120, "Arthur");
+		System.out.println(aardvark.speak());
 
 	}
 
