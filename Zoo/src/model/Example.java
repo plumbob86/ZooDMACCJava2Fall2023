@@ -1,5 +1,5 @@
 package model;
-
+ // for git demo
 public class Example {
 	private String habitat;
 	private String name;
@@ -67,10 +67,10 @@ public class Example {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Example [name=" + name + ", length=" + length + "inches, habitat=" + habitat + "]";
+		return "[name=" + name + ", length=" + length + "inches, habitat=" + habitat + "]";
 	}
 
 	public String makeNoise() {
-		return "Example!";
+		return "";
 	}
 }
