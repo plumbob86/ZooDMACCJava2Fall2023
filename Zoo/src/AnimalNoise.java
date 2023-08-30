@@ -3,6 +3,7 @@ import model.Example;
 import model.Lion;
 import model.Parrot;
 import model.Binturong;
+import model.Panda;
 
 public class AnimalNoise {
 
@@ -33,6 +34,15 @@ public class AnimalNoise {
 
 		//Making noise:
 		System.out.println(myLion.makeNoise());
+
+		// New instance of Panda class
+		Panda panda = new Panda("Bamboo Forest", "Bambi", 2);
+
+		// Creating Panda noise
+		System.out.println(panda.makeNoise());
+
+		// Creating Panda ToString
+		System.out.println(panda.toString());
 
 	}
 
