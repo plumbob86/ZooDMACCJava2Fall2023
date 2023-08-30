@@ -27,6 +27,6 @@ public class Tiger {
 		return "Tiger [color=" + color + ", age=" + age + ", species=" + species + "]";
 	}
 	public String makeNoise() {
-		return "ROAR!";
+		return "ROARRR!";
 	}
 }
