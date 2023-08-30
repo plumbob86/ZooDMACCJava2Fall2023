@@ -5,6 +5,7 @@ public class Example {
 	private String name;
 	private int length;
 
+	//For Git demo
 	public Example() {
 		super();
 		// TODO Auto-generated constructor stub
