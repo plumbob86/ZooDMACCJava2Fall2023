@@ -21,6 +21,12 @@ public class AnimalNoise {
 		//instantiating the binturong
 		Binturong binturong = new Binturong("male", 25, "Black");
 		
+		// Instance of Red Panda
+		RedPanda myRedPanda = new RedPanda("male", 17, 19);
+		
+		// returning speak() for myRedPanda
+		System.outprintln(myRedPanda.speak());
+		
 		// Printing the result of the makeNoise method from the Parrot class
 		System.out.println(parrot.makeNoise());
 
