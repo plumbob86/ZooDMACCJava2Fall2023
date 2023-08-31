@@ -3,6 +3,7 @@ import model.Example;
 import model.Lion;
 import model.Parrot;
 import model.Binturong;
+import model.Elephant;
 
 public class AnimalNoise {
 
@@ -14,6 +15,7 @@ public class AnimalNoise {
 		 * 
 		 * Add a call to your animal below this comment.
 		 */
+		Elephant elephant = new Elephant(60, "Sillie", "Tusk");
 
 		// Creating an instance of the Parrot class
 		Parrot parrot = new Parrot("Green", "Amazon Parrot", 12);
@@ -24,7 +26,6 @@ public class AnimalNoise {
 		// Printing the result of the makeNoise method from the Parrot class
 		System.out.println(parrot.makeNoise());
 
-
 		//binturong go moo 
 		System.out.println(binturong.speak());
 
@@ -33,6 +34,9 @@ public class AnimalNoise {
 
 		//Making noise:
 		System.out.println(myLion.makeNoise());
+		
+		//Making noise:
+		System.out.println(elephant.makeNoise());
 
 	}
 
