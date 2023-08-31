@@ -1,4 +1,4 @@
-
+import model.Squirrel;
 import model.Example;
 import model.Lion;
 import model.Parrot;
@@ -15,11 +15,18 @@ public class AnimalNoise {
 		 * Add a call to your animal below this comment.
 		 */
 
+		//create instance of Squirrel
+		Squirrel squeaker = new Squirrel();
+		//Speak, Squeaker:
+		System.out.println(squeaker.speak());
+		
 		// Creating an instance of the Parrot class
 		Parrot parrot = new Parrot("Green", "Amazon Parrot", 12);
 
 		//instantiating the binturong
 		Binturong binturong = new Binturong("male", 25, "Black");
+		
+
 		
 		// Printing the result of the makeNoise method from the Parrot class
 		System.out.println(parrot.makeNoise());
@@ -30,9 +37,9 @@ public class AnimalNoise {
 
 		//New instance of Lion class
 		Lion myLion = new Lion("Adult", "Male", 200);
-
 		//Making noise:
 		System.out.println(myLion.makeNoise());
+		
 
 	}
 
