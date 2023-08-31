@@ -1,5 +1,6 @@
 
 import model.Example;
+import model.Raven;
 import model.Lion;
 import model.Parrot;
 import model.Binturong;
@@ -33,6 +34,12 @@ public class AnimalNoise {
 
 		//Making noise:
 		System.out.println(myLion.makeNoise());
+		
+		// Creating an instance of the Raven class
+		Raven raven = new Raven("Black", 10, "Corvus crassirostris");
+		
+		//Making Raven noise
+		System.out.println(raven.makeNoise());
 
 	}
 
