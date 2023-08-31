@@ -6,34 +6,39 @@ import model.Binturong;
 
 public class AnimalNoise {
 
-	public static void main(String[] args) {
-		Example example = new Example();
-		System.out.println(example.makeNoise());
-		
-		/*
-		 * 
-		 * Add a call to your animal below this comment.
-		 */
+    public static void main(String[] args) {
+        Example example = new Example();
+        System.out.println(example.makeNoise());
 
-		// Creating an instance of the Parrot class
-		Parrot parrot = new Parrot("Green", "Amazon Parrot", 12);
+        /*
+         * 
+         * Add a call to your animal below this comment.
+         */
 
-		//instantiating the binturong
-		Binturong binturong = new Binturong("male", 25, "Black");
-		
-		// Printing the result of the makeNoise method from the Parrot class
-		System.out.println(parrot.makeNoise());
+        // Creating an instance of the Parrot class
+        Parrot parrot = new Parrot("Green", "Amazon Parrot", 12);
 
+        // instantiating the binturong
+        Binturong binturong = new Binturong("male", 25, "Black");
 
-		//binturong go moo 
-		System.out.println(binturong.speak());
+        // Printing the result of the makeNoise method from the Parrot class
+        System.out.println(parrot.makeNoise());
 
-		//New instance of Lion class
-		Lion myLion = new Lion("Adult", "Male", 200);
+        // binturong go moo
+        System.out.println(binturong.speak());
 
-		//Making noise:
-		System.out.println(myLion.makeNoise());
+        // New instance of Lion class
+        Lion myLion = new Lion("Adult", "Male", 200);
 
-	}
+        // Making noise:
+        System.out.println(myLion.makeNoise());
+
+        // New instance of Cow class
+        Cow myCow = new Cow("Infant", "Female", 175);
+
+        // Cow noise:
+        System.out.println(myCow.makeNoise());
+
+    }
 
 }
