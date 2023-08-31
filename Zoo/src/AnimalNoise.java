@@ -2,6 +2,7 @@
 import model.Example;
 import model.Lion;
 import model.Parrot;
+import model.Sloth;
 import model.Binturong;
 
 public class AnimalNoise {
@@ -21,6 +22,9 @@ public class AnimalNoise {
 		//instantiating the binturong
 		Binturong binturong = new Binturong("male", 25, "Black");
 		
+		//creating instance of sloth class
+		Sloth sloth = new Sloth("very relaxed", "gray", 12);
+		
 		// Printing the result of the makeNoise method from the Parrot class
 		System.out.println(parrot.makeNoise());
 
@@ -33,7 +37,11 @@ public class AnimalNoise {
 
 		//Making noise:
 		System.out.println(myLion.makeNoise());
+		
+		// Printing noise
+		
+		System.out.println(sloth.makeNoise());
+		
 
 	}
-
 }
