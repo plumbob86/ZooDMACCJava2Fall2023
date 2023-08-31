@@ -33,6 +33,11 @@ public class AnimalNoise {
 
 		//Making noise:
 		System.out.println(myLion.makeNoise());
+		
+		//create timberwolf object
+		Timberwolf t = new Timberwolf("Grey", 4, "Male");
+		
+		System.out.println(t.makeNoise());
 
 	}
 
