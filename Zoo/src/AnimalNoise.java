@@ -3,6 +3,7 @@ import model.Example;
 import model.Lion;
 import model.Parrot;
 import model.Binturong;
+import model.Cat;
 
 public class AnimalNoise {
 
@@ -14,6 +15,13 @@ public class AnimalNoise {
 		 * 
 		 * Add a call to your animal below this comment.
 		 */
+		
+		
+		//Cat model johnniecache7
+		Cat cat = new Cat();
+		System.out.println(cat.makeNoise());
+		
+		
 
 		// Creating an instance of the Parrot class
 		Parrot parrot = new Parrot("Green", "Amazon Parrot", 12);
