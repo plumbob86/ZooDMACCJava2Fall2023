@@ -2,6 +2,7 @@
 import model.Example;
 import model.Lion;
 import model.Parrot;
+import model.Penguin;
 import model.Binturong;
 
 public class AnimalNoise {
@@ -33,6 +34,12 @@ public class AnimalNoise {
 
 		//Making noise:
 		System.out.println(myLion.makeNoise());
+		
+		
+		Penguin myPenguin = new Penguin("King Penguin", "Male", 20);
+
+		//Making noise:
+		System.out.println(myPenguin.makeNoise());
 
 	}
 
