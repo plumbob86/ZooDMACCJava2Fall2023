@@ -3,6 +3,7 @@ import model.Example;
 import model.Lion;
 import model.Parrot;
 import model.Binturong;
+import model.Tuxedo;
 
 public class AnimalNoise {
 
@@ -33,6 +34,11 @@ public class AnimalNoise {
 
 		//Making noise:
 		System.out.println(myLion.makeNoise());
+		
+		//A instance of my cat Tuxedo
+		Tuxedo tuxedo = new Tuxedo("Tuxedo", "soft bed", 14);
+		System.out.println(tuxedo.toString());
+		System.out.println(tuxedo.makeNoise());
 
 	}
 
